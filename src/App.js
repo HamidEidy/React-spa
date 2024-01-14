@@ -5,6 +5,7 @@ import Users from './pages/Users';
 import ShowUser from './pages/Users/ShowUser';
 import Posts from './pages/Posts';
 import ShowPost from './pages/Posts/ShowPost';
+import Create from './pages/Posts/Create';
 function App() {
   return (
     <BrowserRouter>
@@ -15,6 +16,7 @@ function App() {
       <Route path='/Users/:userId' element={<ShowUser />} />
       <Route path='/Posts' element={<Posts />} />
       <Route path='Posts/:postId' element={<ShowPost />} />
+      <Route path='Posts/Create' element={<Create />} />
     </Routes>
     </BrowserRouter>
 

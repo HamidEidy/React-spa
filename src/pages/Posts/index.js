@@ -27,7 +27,7 @@ const Posts = () => {
             <div className="row g-3">
             <h2>Posts :</h2>
             <div>
-                <Link className="btn btn-dark" to="/posts/create">Create Post</Link>
+                <Link className="btn btn-dark" to="/posts/Create">Create Post</Link>
             </div>
             {error && <div>{error}</div>}
             {loading && <div className="spinner-border"></div>}
